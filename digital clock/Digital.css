@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG5hdHVyZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+}
+.clock span{
+    width:100px;
+    height:80px;
+    background: slateblue;
+    opacity:.8;
+    color:white ;
+   justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    display: flex;
+    text-shadow: 2px 2px 4px rgba(0,0,0,);
+}
